@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Special Message for pyaro vinaju</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Dancing+Script:wght@700&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #fdf2f2 0%, #ffdee9 100%);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            max-width: 550px;
+            width: 90%;
+            text-align: center;
+            border: 2px solid #ffb6c1;
+            margin: 20px;
+        }
+
+        h1 {
+            font-family: 'Dancing Script', cursive;
+            color: #d63384;
+            font-size: 2.8rem;
+            margin-bottom: 20px;
+        }
+
+        .intro {
+            font-weight: 600;
+            color: #555;
+            margin-bottom: 20px;
+            border-bottom: 1.5px solid #ffccd5;
+            padding-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        .main-message {
+            line-height: 1.8;
+            font-size: 1.05rem;
+            color: #444;
+            text-align: left;
+            background: #fffafa;
+            padding: 25px;
+            border-radius: 15px;
+            border-left: 5px solid #d63384;
+            box-shadow: inset 0 0 10px rgba(0,0,0,0.02);
+        }
+
+        .heart {
+            color: #e74c3c;
+            font-size: 24px;
+            margin: 20px 0;
+            animation: beat 1s infinite alternate;
+        }
+
+        @keyframes beat {
+            from { transform: scale(1); }
+            to { transform: scale(1.2); }
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-style: italic;
+            font-size: 0.95rem;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        /* Music Styles */
+        .music-box {
+            margin: 20px 0;
+            padding: 10px;
+            background: #fff0f5;
+            border-radius: 50px;
+            display: inline-flex;
+            align-items: center;
+            gap: 15px;
+            border: 1px solid #ffb6c1;
+        }
+
+        .play-btn {
+            background-color: #d63384;
+            color: white;
+            padding: 10px 25px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: 0.3s;
+            outline: none;
+        }
+
+        .play-btn:hover {
+            background-color: #b02a6b;
+            transform: translateY(-2px);
+        }
+
+        .btn-surprise {
+            background-color: #4a90e2;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 25px;
+            margin-top: 15px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+
+        .btn-surprise:hover {
+            background-color: #357abd;
+        }
+
+        strong {
+            color: #d63384;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Audio Element -->
+    <audio id="bgMusic" loop>
+        <source src="song.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div class="card">
+        <h1>Dear Vinaju,</h1>
+        
+        <div class="intro">
+            Hello Vinaju! If you don't know me, lemme introduce myself. <br>
+            Ma chei <strong>"JESIKA"</strong>, Sammy ko school ko sthy. <br>
+            Hjur snga ekchoti matrw bhet vyo tei ni kura grna payena, ani yei link ko through <br>
+            I wanna <strong>"CONGRATULATE YOU BOTH"</strong>! 💐
+        </div>
+
+        <!-- Music Control Section -->
+        <div class="music-box">
+            <span style="font-size: 0.8rem; font-weight: bold; color: #d63384; margin-left: 10px;">Play a song for the mood? 🎵</span>
+            <button class="play-btn" id="musicBtn" onclick="toggleMusic()">Play ♪</button>
+        </div>
+
+        <div class="main-message">
+            Umm ka bata k suru grnu vyo... I just wanna say hamro Sammy ekdamei shanta ra sojhii chey. I hope hjur hami vnda thulo hoisincha so dherai nei bujhisincha. Just wish ki hjur le Sammy ko lagi stand lindisinchaa future ma, the way we used to do. <br><br>
+            
+            Bihey vnda aagadi Sammy hamro thiee vney now she is all yours. Please keep her happy ani don't let the cutest smile fade away... tyo sano sano kura ma ni khusi hunchey so yeslai khusi rakhna garo chaina. <br><br>
+            
+            Sammy ra ma hami ekdamei opposite character ko chum. Tyo dherai boldina, teslai kei kura ma kai uncomfortable vko cha vnney hjur le afai notice grnu prcha, yesley vndinaa. <br><br>
+
+            Hjur jasto ramro manche mero Sammy ko life partner bhayera aaunu bhayeko ma mah dherai khusi chu. And you are the luckiest guy ki Sammy jsto pure heart vyeko life partner paunu va cha.
+        </div>
+
+        <div class="heart">❤️ ❤️ ❤️</div>
+
+        <div class="footer">
+            Always wishing the best for you both! <br>
+            Chito chito Sammy lai lera KTM aaunu ani ajhai kati dherai guff grnu cha hjur snga ni, Sammy snga ni. <br>
+            See ya soon! <br><br>
+            <strong>- Sammy ko milney sthy, JESIKA</strong>
+        </div>
+
+        <button class="btn-surprise" onclick="celebrate()">Click for a Final Surprise!</button>
+    </div>
+
+    <script>
+        var song = document.getElementById("bgMusic");
+        var btn = document.getElementById("musicBtn");
+
+        function toggleMusic() {
+            if (song.paused) {
+                song.play();
+                btn.innerHTML = "Pause ||";
+                btn.style.background = "#888";
+            } else {
+                song.pause();
+                btn.innerHTML = "Play ♪";
+                btn.style.background = "#d63384";
+            }
+        }
+
+        function celebrate() {
+            alert("Aba mero partner in crime is yours, so handle her with lots of love and care! 😉 Best Wishes to you both!");
+        }
+    </script>
+
+</body>
+</html>
